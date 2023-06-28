@@ -1,3 +1,4 @@
+import 'package:course_app/auth/forgot_pass.dart/forgot_pass.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -82,12 +83,18 @@ class _LoginScreenState extends State<LoginScreen> {
             _loginButton(),
             Padding(
               padding: const EdgeInsets.only(bottom: 20),
-              child: Row(
-                mainAxisAlignment: MainAxisAlignment.end,
-                children: const [
-                  Text("Forgor Pass"),
-                  Icon(Icons.arrow_right_alt),
-                ],
+              child: GestureDetector(
+                onTap: () => Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                        builder: (context) => ForgotPasswordScreen())),
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.end,
+                  children: const [
+                    Text("Forgor Pass"),
+                    Icon(Icons.arrow_right_alt),
+                  ],
+                ),
               ),
             ),
             _text(
