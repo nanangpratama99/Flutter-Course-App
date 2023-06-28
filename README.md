@@ -48,7 +48,9 @@ Start the server
 ### Important
 > _Some asset not included_ 
 ####
-> _add folder 'assets' and insert your 'image-asset'_ 
+> _add folder 'assets' and insert your 'image-asset'_
+####
+> _reference asset from unDraw.co_
     
 ## Screenshots
 ##### 1. Welcome Screen, Login Screen & Register Screen
