@@ -56,6 +56,10 @@ Start the server
 
 <img width="750" alt="mock-1" src="https://github.com/nanangpratama99/Login-Register-App/assets/111034379/519e40f0-eb85-4fb8-bb64-df503433a7d1">
 
+##### 1. Forgot Password Screen & Reset Password Screen
+####
+
+<img width="750" alt="4307056-ai" src="https://github.com/nanangpratama99/Flutter-Course-App/assets/111034379/3a4bd0b8-a690-43cb-b31c-61b843a01ff1">
 
 ##### 2. Home Page Screen & Course Page Screen
 ####
